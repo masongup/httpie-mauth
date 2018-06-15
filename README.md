@@ -9,9 +9,9 @@ To use this, you will need:
 * A MAuth private key whose corresponding public key is registered with the
 MAuth server that the target service is using
 * A MAuth config file in a supported location, one of:
-    * ~/.mauth_config.yml
-    * ./config/mauth.yml
-    * ./mauth.yml
+    * `~/.mauth_config.yml`
+    * `./config/mauth.yml`
+    * `./mauth.yml`
 
 The format of that file should be as follows:
 
