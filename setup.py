@@ -4,6 +4,7 @@ setup(
     name='httpie-mauth',
     description='MAuth plugin for HTTPie',
     version='0.0.1',
+    url='https://github.com/masongup-mdsol/httpie-mauth',
     author='Medidata Solutions',
     author_email='support@mdsol.com',
     license='MIT',
