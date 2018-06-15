@@ -12,6 +12,7 @@ class MAuthPlugin(AuthPlugin):
     name = 'MAuth auth'
     auth_type = 'mauth'
     description = 'Use MAuth to sign outgoing requests'
+    auth_require = False
 
     def get_auth(self, username=None, password=None):
         env = self.get_config()
