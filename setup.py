@@ -7,6 +7,8 @@ setup(
     author='Medidata Solutions',
     author_email='support@mdsol.com',
     license='MIT',
+    long_description=open('README.md').read(),
+    long_description_content_type='text/markdown',
     py_modules=['httpie_mauth'],
     zip_safe=False,
     entry_points={
@@ -19,5 +21,12 @@ setup(
         'requests_mauth>=1.0.3',
     ],
     classifiers=[
+        'Environment :: Web Environment',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Internet :: WWW/HTTP',
+        'Topic :: Software Development :: Libraries :: Python Modules',
     ]
 )
