@@ -23,9 +23,7 @@ development:
 
 You can then issue signed requests as follows:
 
-`http --auth-type mauth --auth a:a https://example.com`
+`http --auth-type mauth https://example.com`
 
-Unfortunately, the username:password section `--auth a:a` is necessary, even
-though username and password are ignored. You can also pass the `-v` option
-to see the outgoing header. Validating the signature of the response is not
-currently supported.
+You can pass the `-v` option to see the outgoing header. Validating the
+signature of the response is not currently supported.

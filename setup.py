@@ -7,7 +7,7 @@ setup(
     author='Medidata Solutions',
     author_email='support@mdsol.com',
     license='MIT',
-    long_description=open('README.md').read(),
+    long_description=open('README').read(),
     long_description_content_type='text/markdown',
     py_modules=['httpie_mauth'],
     zip_safe=False,
