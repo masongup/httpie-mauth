@@ -20,6 +20,7 @@ setup(
     install_requires=[
         'httpie>=0.7.0',
         'requests_mauth>=1.0.3',
+        'pyyaml>=3.0'
     ],
     classifiers=[
         'Environment :: Web Environment',
