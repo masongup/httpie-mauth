@@ -32,4 +32,4 @@ class MAuthPlugin(AuthPlugin):
         for file_path in [os.path.expanduser(f) for f in possible_files]:
             if os.path.exists(file_path):
                 with open(file_path) as f:
-                    return yaml.load(f.read())['development']
+                    return yaml.safe_load(f.read())['development']
