@@ -3,7 +3,7 @@ MAuth Plugin for HTTPie
 """
 
 from httpie.plugins import AuthPlugin
-from requests_mauth import MAuth
+from mauth_client.requests_mauth import MAuth
 import yaml
 import os.path
 
@@ -20,7 +20,7 @@ class MAuthPlugin(AuthPlugin):
         priv_key_path = env['private_key_file']
         with open(priv_key_path) as f:
             privkey = f.read()
-        return MAuth(uuid, privkey)
+        return MAuth(uuid, privkey, 'v1,v2')
 
     def get_config(self):
         possible_files = [

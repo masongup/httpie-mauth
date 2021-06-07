@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name='httpie-mauth',
     description='MAuth plugin for HTTPie',
-    version='0.0.1',
+    version='0.0.3',
     url='https://github.com/masongup-mdsol/httpie-mauth',
     author='Medidata Solutions',
     author_email='support@mdsol.com',
@@ -19,7 +19,7 @@ setup(
     },
     install_requires=[
         'httpie>=0.7.0',
-        'requests_mauth>=1.0.3',
+        'mauth-client>=1.2.1',
         'pyyaml>=3.0'
     ],
     classifiers=[
